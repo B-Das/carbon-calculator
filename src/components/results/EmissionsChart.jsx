@@ -86,22 +86,21 @@ export default function EmissionsChart({ results }) {
   }, [results]);
 
   return (
-    <div className="relative h-64 w-full">
+    <div className="relative w-full h-80 sm:h-96 min-h-[26rem] pb-12 overflow-visible">
       <canvas ref={chartRef} />
-      
-      {/* Show percentages below the chart */}
-      <div className="flex justify-center mt-4 space-x-6">
+      {/* Responsive legend below the chart */}
+      <div className="flex flex-col items-center mt-4 space-y-2 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-6">
         <div className="flex items-center">
           <div className="w-3 h-3 bg-blue-500 rounded-full mr-2"></div>
-          <span className="text-sm text-gray-600">Electricity ({getPercentage(results.electricity)}%)</span>
+          <span className="text-xs sm:text-sm text-gray-600">Electricity ({getPercentage(results.electricity)}%)</span>
         </div>
         <div className="flex items-center">
           <div className="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
-          <span className="text-sm text-gray-600">Travel ({getPercentage(results.travel)}%)</span>
+          <span className="text-xs sm:text-sm text-gray-600">Travel ({getPercentage(results.travel)}%)</span>
         </div>
         <div className="flex items-center">
           <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-          <span className="text-sm text-gray-600">Commuting ({getPercentage(results.commuting)}%)</span>
+          <span className="text-xs sm:text-sm text-gray-600">Commuting ({getPercentage(results.commuting)}%)</span>
         </div>
       </div>
     </div>
