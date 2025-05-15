@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0F766E;
+  --color-primary-dark: #0c5d57;
+  --color-secondary: #047857;
+  --color-accent: #FCD34D;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen bg-gray-50 text-gray-900 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium text-gray-900;
+  }
+  
+  ::selection {
+    @apply bg-primary/20 text-primary-dark;
+  }
+}
+
+/* Animations */
+@layer components {
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+}
+
+/* Fix to prevent centering issues with the default Vite template */
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
