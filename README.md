@@ -132,4 +132,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Get in Touch
 
-Have questions or feedback? Fill out the contact form on the [About Page](https://carboncalce.netlify.app/#/about) or open an issue on GitHub.
+Have questions or feedback? Fill out the contact form on the [About Page](https://carboncalce.netlify.app/about) or open an issue on GitHub.
