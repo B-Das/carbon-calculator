@@ -1,0 +1,15 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[headers]]
+  for = "*.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from = "/sitemap"
+  to = "/sitemap.xml"
+  status = 301
+  force = true 
