@@ -30,6 +30,11 @@ export default function Footer() {
                   About
                 </Link>
               </li>
+              <li>
+                <a href="/html-sitemap.html" className="text-gray-600 hover:text-primary">
+                  Sitemap
+                </a>
+              </li>
             </ul>
           </div>
           

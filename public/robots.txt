@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://carboncalce.netlify.app/sitemap.xml
+# Sitemaps
 Sitemap: https://carboncalce.netlify.app/sitemap_index.xml
-Sitemap: https://carboncalce.netlify.app/sitemap-simple.xml 
+Sitemap: https://carboncalce.netlify.app/sitemap.xml
+Sitemap: https://carboncalce.netlify.app/sitemap-simple.xml
+Sitemap: https://carboncalce.netlify.app/sitemap.txt 

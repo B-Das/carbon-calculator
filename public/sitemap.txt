@@ -1,0 +1,4 @@
+https://carboncalce.netlify.app/
+https://carboncalce.netlify.app/calculator
+https://carboncalce.netlify.app/results
+https://carboncalce.netlify.app/about 
