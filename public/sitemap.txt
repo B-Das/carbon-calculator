@@ -1,3 +1,6 @@
+# CarbonCalC Sitemap
+# Last updated: 2024-03-19
+
 https://carboncalce.netlify.app/
 https://carboncalce.netlify.app/calculator
 https://carboncalce.netlify.app/results
